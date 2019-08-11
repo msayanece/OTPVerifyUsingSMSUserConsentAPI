@@ -32,8 +32,9 @@ dependencies {
 
     //SMS User Consent API
     def AUTH_API_VERSION = '17.0.0'
+    def AUTH_API_PHONE_VERSION = '17.1.0'
     implementation "com.google.android.gms:play-services-auth:$AUTH_API_VERSION"
-    implementation "com.google.android.gms:play-services-auth-api-phone:$AUTH_API_VERSION"
+    implementation "com.google.android.gms:play-services-auth-api-phone:$AUTH_API_PHONE_VERSION"
 
     //Tests
     testImplementation 'junit:junit:4.12'
