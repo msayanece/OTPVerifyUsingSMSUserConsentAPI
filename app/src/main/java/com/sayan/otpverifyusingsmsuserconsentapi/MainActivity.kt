@@ -75,8 +75,16 @@ class MainActivity : AppCompatActivity(){
     }
 
     private fun verifyPhoneNumber(phoneNumber: String) {
-
         startListeningToOTPSMS()
+        requestServerToSendOTP()
+    }
+
+    /**
+     * Send OTP through your Server API here
+     */
+    private fun requestServerToSendOTP() {
+        // you may check the work here by manually sending SMS from your other mobile-device.
+        // make sure to add your number as smsGatewaySenderPhoneNumber in startListeningToOTPSMS() method
     }
 
     /**
