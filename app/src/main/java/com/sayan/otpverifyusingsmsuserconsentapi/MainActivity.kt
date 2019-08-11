@@ -8,6 +8,12 @@ import com.google.android.gms.auth.api.credentials.Credential
 import com.google.android.gms.auth.api.credentials.Credentials
 import com.google.android.gms.auth.api.credentials.HintRequest
 
+/**
+ * Google documentation
+ * https://www.youtube.com/watch?v=_-Hs6DdcZyY
+ * https://developers.google.com/identity/sms-retriever/user-consent/overview
+ * https://developers.google.com/identity/sms-retriever/user-consent/request
+ */
 class MainActivity : AppCompatActivity() {
 
     var userPhoneNumber: String = ""
